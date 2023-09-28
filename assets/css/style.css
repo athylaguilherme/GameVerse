@@ -16,7 +16,7 @@
 /* Pseudo-elemento */
   header::before {
     content: '';
-    background-image: url('assets/img/spider main.jpg');
+    background-image: url("/assets/img/spider main.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -120,7 +120,7 @@ header span{
         padding: 1.25rem 1.5rem;
         align-items: center;
         gap: 1.2rem ;
-        background-image: url('assets/img/web button.jpg');
+        background-image: url("/assets/img/web button.jpg");
         background-size: cover;
         background-color: var(--primary-color);
         color: #ffe4e4;
